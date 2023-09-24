@@ -1,0 +1,538 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(30, 27, 27)
+}
+.container{
+    background-color: black;
+    height: 60px;
+    position:sticky;
+    top: 0%;
+    z-index: 5;
+   
+
+}
+.imagecult{
+    padding: 10px;
+}
+
+.li {
+    display: inline-block;
+    color: white;
+    position: relative;
+    left:450px;
+    padding-right: 100px;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.nav{
+    margin: -60px;
+    padding: 5px;
+    width: 100%;
+}
+#home{
+    padding-right: 30px;
+}
+ nav :hover{
+    color: rgb(26, 12, 39);
+    color: rgb(90, 151, 204);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav1{
+    color: white;
+    display: flex;
+    justify-content: end;
+}
+.nav1 :hover{
+  color: aqua;
+  /* cursor: pointer; */
+}
+h3{
+    float: right;
+   opacity: 0.85;
+    padding-right: 200px;
+    margin-top: 30px;
+}
+
+.loacationimg{
+    position: relative;
+    opacity: 1;
+    transition: opacity 150ms ease 0s;
+    /* top: 0px;
+    left: 0px; */
+    height: 25px;
+    float: right;
+    right: 230px;
+    margin-top:25px ;
+}
+.a1{
+    position: relative;
+    right: 30px;
+}
+.btn{
+    float: right;
+   margin: -50px;
+  position: relative;
+  right: 180px;
+  top: 5px;
+  background-color: black;
+  color: white;
+  border:solid white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+.style-prefix-5blrfd{
+    float: right;
+    margin: -50px;
+    position: relative;
+    right: 130px;
+    top: 5px;
+   
+}
+.style-prefix{
+    float: right;
+    margin: -50px;
+    position: relative;
+    right: 90px;
+    top: 5px;
+}
+
+
+.imagebtn{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 300px;
+    padding-left: 500px;
+    background: rgb(255 255 255 / 5%);
+    padding: 32px 16px;
+    transition-property: all;
+    transition-duration:2s ;
+   animation-name: ayaan;
+   animation-duration: 2s;
+   animation-delay: 3s;
+   animation-iteration-count: 1;
+   animation-direction: normal;
+}
+.btnone{
+    height: 100px;
+    width: 200px;
+    border-radius: 15px;
+    background: rgb(255 255 255 / 5%);
+    color:white;
+    font-size: larger;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+   
+.btntwo{
+    height: 100px;
+    width: 200px;
+    border-radius: 15px;
+    background: rgb(255 255 255 / 5%);
+    color:white;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btnthree{
+    height: 100px;
+    width: 200px;
+    border-radius: 15px;
+    background: rgb(255 255 255 / 5%);
+    color:white;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#idone{   color:rgb(221, 232, 58); }
+#idtwo{color: grey; }
+#idthree{color: pink; }
+
+ #for :hover{
+    background-color: rgb(178, 178, 178);
+    color: black;
+}
+@keyframes ayaan {
+    from{top: -100px; }
+    to{top: -200px;}
+    
+}
+
+#cen{
+    color: white;
+    font-size: large;
+   text-align: center;
+  position: relative;
+  top:-100px;
+   
+}
+.trainer{
+    position: relative;
+    bottom: 70px;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.column{
+    float: left;
+    width: 23.33%;
+    padding: 5px;
+    margin-left: 10px;
+   transition: 1s;
+   transition-timing-function:ease-in ;
+ 
+}
+.column:hover{
+    /* transition-timing-function:steps(3) ; */
+    transform: scale(1.3);
+    z-index: 2;
+}
+.row{
+    position: relative;
+    bottom: 150px;
+}
+.row::after{
+
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer{
+    height: 450px;
+    background-color: black;
+}
+.sideinfo{
+    color: white;
+    display: block;
+    width: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    padding-left: 100px;
+}
+.param{
+    position: relative;
+    top: 100px;
+    
+    /* left: 100px; */
+}
+.bult{
+    padding-left:100px ;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.lidown{
+    float: left;
+    opacity: 0.70;
+    list-style-type:none;
+
+}
+
+.lidown2{
+    float: left;
+    opacity: 0.70;
+    color: white;
+    list-style-type: none;
+}
+
+.lidown3{
+    float: left;
+    opacity: 0.70;
+    color: white;
+    list-style-type: none;
+}
+
+.appstore{
+    float: right;
+    height: 70px;
+   position: relative;
+   right: 100px;
+   bottom: 250px;
+   
+}
+.googleplay{
+    float: right;
+    height: 70px;
+  position: relative;
+  left: 120px;
+  bottom: 150px;  
+}
+.trials{
+    color: white;
+    position: relative;
+    bottom: 70px;
+    font-size: 60px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.bolumn{
+    float: left;
+    width: 23.33%;
+    padding: 50px;
+    margin-left: 20px;
+    position: relative;
+    left: 70px;
+    top: 20px;
+   transition: 1s;
+   transition-timing-function:ease-in ;
+ 
+}
+.bolumn:hover{
+    /* transition-timing-function:steps(3) ; */
+    transform: scale(1.2);
+    z-index: 2;
+}
+.bow{
+    position: relative;
+    bottom: 150px;
+}
+.bow::after{
+
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bat1{
+    position: relative;
+    left: 70px;
+    bottom: 50px;
+    background: rgb(255 255 255 / 10%);
+    color: white;
+    border-radius: 5px;
+}
+.bat2{
+    position: relative;
+    left: 70px;
+    bottom: 50px;
+    background: rgb(255 255 255 / 10%);
+    color: white;
+    border-radius: 5px;
+}
+.bat3{
+    position: relative;
+    left: 70px;
+    bottom: 50px;
+    background: rgb(255 255 255 / 10%);
+    color: white;
+    border-radius: 5px;
+}
+.bom1{
+    position: relative;
+    left: 130px;
+    bottom: 50px;
+    height: 30px;
+    background: rgb(255 255 255 / 10%);
+    color: white;
+    border-radius: 5px;
+}
+.bom2{
+    position: relative;
+    left: 130px;
+    bottom: 50px;
+    height: 30px;
+    background: rgb(255 255 255 / 10%);
+    color: white;
+    border-radius: 5px;
+}
+.bom3{
+    position: relative;
+    left: 130px;
+    bottom: 50px;
+    height: 30px;
+    background: rgb(255 255 255 / 10%);
+    color: white;
+    border-radius: 5px;
+}
+.back{
+    background-color:rgb(9, 9, 10);
+    height: 2000px;
+    position: relative;
+    bottom: 150px;
+    color: white;
+}
+.maincon{
+    padding-top: 60px;
+    padding-left: 100px;
+}
+.just{
+    position: relative;
+    bottom: 40px;
+}
+.newli{
+    position: relative;
+    bottom: 60px;
+    list-style-type: none;
+    font-size: large;
+}
+.maincon1{
+    float: right;
+    position: relative;
+    bottom: 400px;
+    margin-right: 50px;
+    /* position: relative;
+    left: 800px;
+    top: 200px;
+    padding-top: 60px;
+    padding-left: 100px; */
+}
+
+.offervalidation{
+    position: relative;
+    top: 300px;
+}
+.action{
+    color: white;
+    padding-left: 250px;
+    font-size: 40px;
+    /* margin-top: -40px; */
+}
+.offer{
+    background-color: rgb(78, 52, 52);
+    width: 88%;
+    height: 150px;
+    font-size: 35px;
+    margin-left: 100px;
+    word-spacing: 5px;
+    padding-top:20px;
+    padding-left: 10px; 
+    border-radius:30px ;
+    margin-top: 100px
+}
+
+.timer{
+    float: right;
+		font-size: 45px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 350px;
+    bottom: 50px;
+   
+}
+.img_con{
+  margin-bottom: 400px;
+    margin-left: 200px;
+    border: 10px;
+  border-radius: 16px;
+
+}
+
+
+.up_appstore{
+    height: 60px;
+    width: 150px;
+    position: relative;
+    left: 30px;
+    bottom: 90px;
+
+}
+.up_googleplay{
+    height: 60px;
+    width: 180px;
+    position: relative;
+    left: 40px;
+    bottom: 90px;
+}
+
+
+
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+/* .style-prefix-5blrfd {
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+  
+   
+  } */
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    margin-right: 100px;
+    margin-bottom: 310px;
+   
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+     width: 350px;
+     box-shadow: 1px 2px 71px -6px rgba(0,0,0,0.67);
+     background-color: #212529;
+     color:#f8f9fa;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+   
+  }
+   .form-container input[type=password]{
+    background-color:#6c757d;
+
+  }
+  .form-container input[type=text]{
+    background-color: #6c757d;
+  }
+
+  input::placeholder{
+    color:#f8f9fa;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn555 {
+    background-color: #248277;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+    width: 100px;
+    margin-left: 100px;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn555:hover, .open-button:hover {
+    opacity: 1;
+  }
